@@ -1,14 +1,10 @@
 {
-  "name": "kremlin",
-  "version": "0.0.5",
-  "description": "Modern WebApp Pentesting Suite",
+  "name": "nhl18-HUT-scraper-bot",
+  "version": "0.0.1",
+  "description": "NHL18 HUT Screen Scraping Automation Framework",
   "author": "Zachary Iles",
   "main": "dist/index.js",
   "license": "MIT",
-  "repository": {
-    "url": "git+https://github.com/zackiles/kremlin.git",
-    "type": "git"
-  },
   "keywords": [
     "pentest",
     "fuxzzer",
@@ -17,10 +13,6 @@
     "crawler",
     "attack"
   ],
-  "homepage": "https://github.com/zackiles/kremlin",
-  "bugs": {
-    "url": "https://github.com/zackiles/kremlin/issues"
-  },
   "scripts": {
     "benchmark": "babel-node benchmark",
     "benchmark:watch": "nodemon src/index.js --exec babel-node benchmark",
